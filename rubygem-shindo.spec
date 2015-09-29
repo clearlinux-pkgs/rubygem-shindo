@@ -4,7 +4,7 @@
 #
 Name     : rubygem-shindo
 Version  : 0.3.8
-Release  : 4
+Release  : 5
 URL      : https://rubygems.org/downloads/shindo-0.3.8.gem
 Source0  : https://rubygems.org/downloads/shindo-0.3.8.gem
 Summary  : No detailed summary available
