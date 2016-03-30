@@ -4,7 +4,7 @@
 #
 Name     : rubygem-shindo
 Version  : 0.3.8
-Release  : 5
+Release  : 6
 URL      : https://rubygems.org/downloads/shindo-0.3.8.gem
 Source0  : https://rubygems.org/downloads/shindo-0.3.8.gem
 Summary  : No detailed summary available
@@ -65,57 +65,30 @@ pushd %{buildroot}%{gem_dir}/gems/shindo-0.3.8 && RUBYOPT="-I.:lib" bin/shindo &
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/shindo-0.3.8.gem
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/File/cdesc-File.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Object/cdesc-Object.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Object/run_in_thread-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Pending/cdesc-Pending.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Rake/cdesc-Rake.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Rake/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/after-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/assert-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/before-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/cdesc-Tests.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/display_description-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/display_description_stack-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/display_error-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/display_failure-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/display_pending-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/display_success-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/pending-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/prompt-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/raises-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/returns-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/test-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/Tests/tests-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/cdesc-Shindo.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/Shindo/tests-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/doc/shindo-0.3.8/ri/page-README_rdoc.ri
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/Gemfile
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/README.rdoc
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/Rakefile
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/bin/shindo
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/bin/shindont
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/lib/shindo.rb
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/lib/shindo/bin.rb
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/lib/shindo/rake.rb
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/lib/shindo/taciturn.rb
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/lib/shindo/verbose.rb
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/shindo.gemspec
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/tests/basic_tests.rb
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/tests/bin_tests.rb
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/tests/build_error_tests.rb
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/tests/data/exception
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/tests/data/failure
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/tests/data/negative
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/tests/data/pending
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/tests/data/positive
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/tests/data/success
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/tests/tag_tests.rb
-/usr/lib64/ruby/gems/2.2.0/gems/shindo-0.3.8/tests/tests_helper.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/shindo-0.3.8.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/shindo-0.3.8.gem
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/Gemfile
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/README.rdoc
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/Rakefile
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/bin/shindo
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/bin/shindont
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/lib/shindo.rb
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/lib/shindo/bin.rb
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/lib/shindo/rake.rb
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/lib/shindo/taciturn.rb
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/lib/shindo/verbose.rb
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/shindo.gemspec
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/tests/basic_tests.rb
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/tests/bin_tests.rb
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/tests/build_error_tests.rb
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/tests/data/exception
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/tests/data/failure
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/tests/data/negative
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/tests/data/pending
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/tests/data/positive
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/tests/data/success
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/tests/tag_tests.rb
+/usr/lib64/ruby/gems/2.3.0/gems/shindo-0.3.8/tests/tests_helper.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/shindo-0.3.8.gemspec
 
 %files bin
 %defattr(-,root,root,-)
